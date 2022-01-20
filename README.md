@@ -329,6 +329,7 @@ Here is a sample script for charge limit control - it is not meant for as-is usa
 * Adapter review (PR#1589): removed tab stuff (tab_m.html)
 * Adapter review (PR#1589): onUnload(), clear _all_ timers and close TCP connection
 * Remove Sentry, because it was only a trial and not properly configured
+* Fixed relative paths, using "__dirname/" instead of "./" (the latter crashed when using compact mode)
 ### 0.0.17-beta
 (git-kick)
 * DB namespace - experimental implementation
