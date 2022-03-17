@@ -819,7 +819,10 @@ class E3dcRscp extends utils.Adapter {
 			this.addTagtoFrame( "TAG_PVI_REQ_MAX_TEMPERATURE", sml  );
 			this.addTagtoFrame( "TAG_PVI_REQ_MIN_TEMPERATURE", sml  );
 			this.addTagtoFrame( "TAG_PVI_REQ_AC_MAX_APPARENTPOWER", sml  );
-			this.addTagtoFrame( "TAG_PVI_REQ_DEVICE_STATE", sml  );
+			this.addTagtoFrame( "TAG_PVI_REQ_DC_MIN_VOLTAGE", sml  );
+			this.addTagtoFrame( "TAG_PVI_REQ_DC_MAX_VOLTAGE", sml  );
+			this.addTagtoFrame( "TAG_PVI_REQ_DC_MIN_CURRENT", sml  );
+			this.addTagtoFrame( "TAG_PVI_REQ_DC_MAX_CURRENT", sml  );
 			for( let j = 0; j <= this.maxIndex[`PVI_${i}.AC_MAX_PHASE`]; j++) {
 				for( const id of phaseIds ) {
 					this.addTagtoFrame( `TAG_PVI_REQ_${id.split(".")[1]}`, sml, j );

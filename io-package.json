@@ -395,7 +395,23 @@
                 "interval": "M"
             },
             {
+                "tag": "TAG_PVI_REQ_DC_MIN_VOLTAGE",
+                "interval": "M"
+            },
+            {
+                "tag": "TAG_PVI_REQ_DC_MAX_VOLTAGE",
+                "interval": "M"
+            },
+            {
                 "tag": "TAG_PVI_REQ_DC_CURRENT",
+                "interval": "M"
+            },
+            {
+                "tag": "TAG_PVI_REQ_DC_MIN_CURRENT",
+                "interval": "M"
+            },
+            {
+                "tag": "TAG_PVI_REQ_DC_MAX_CURRENT",
                 "interval": "M"
             },
             {
